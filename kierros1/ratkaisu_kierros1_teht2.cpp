@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void swap1(int &val1, int &val2);
-void swap2(int *valptr1, int *valptr2);
+void swap1(int &, int &);
+void swap2(int *, int *);
 
 int main() {
     int val1 = 1, val2 = 2;
